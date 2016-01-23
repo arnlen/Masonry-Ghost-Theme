@@ -1,3 +1,6 @@
+// Arnlen
+$primary_color: #008376;
+
 //colors
 $color_arapawa_6_approx: rgba(0,0,100,0.06);
 $color_mine_shaft_approx: #2e2e2e;
@@ -1189,7 +1192,7 @@ iframe {
 		content: '\003e';
 		display: inline-block;
 		font-size: 1.5em;
-		color: $color_rose_approx;
+		color: $primary_color;
 		position: absolute;
 		top: -2px;
 		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
@@ -2129,11 +2132,11 @@ iframe {
 			display: block;
 			margin: 0;
 			padding: 0;
-			background-color: $color_rose_approx;
+			background-color: $primary_color;
 			position: relative;
 			margin: -1.5em -1.5em 0;
 			overflow: hidden;
-			background: $color_rose_approx;
+			background: $primary_color;
 			&:after {
 				content: '';
 				position: absolute;
@@ -2142,7 +2145,7 @@ iframe {
 				width: 110%;
 				height: 4em;
 				background: $white;
-				border-top: 4px solid $color_rose_approx;
+				border-top: 4px solid $primary_color;
 				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 				box-shadow: 0 0 2em $black_20;
 				-webkit-transform: rotate(5deg);
@@ -2173,7 +2176,7 @@ iframe {
 		}
 	}
 	.post-excerpt a {
-		color: $color_rose_approx;
+		color: $primary_color;
 	}
 }
 @media only screen and(min-width: 400px) {
@@ -2283,4 +2286,10 @@ svg:not(:root) {
 }
 .content .embedPastebin {
 	margin-bottom: 1.75em;
+}
+
+// Arnlen
+.main-header-content {
+	padding: 2%;
+	background-color: rgba(0, 0, 0, 0.3);
 }
